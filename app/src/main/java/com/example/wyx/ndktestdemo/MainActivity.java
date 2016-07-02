@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv_show=(TextView)findViewById(R.id.tv_show);
-        tv_show.setText(JNIUtils.getStringFormC());
+        tv_show.setText(JNIUtils.getStringFormC());//显示字符窜
     }
 }
